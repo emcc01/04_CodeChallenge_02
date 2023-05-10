@@ -19,7 +19,7 @@ Alter 13-17 // Cola
 let firstname = prompt("Wie lautet der Name");
 let age =  parseInt(prompt("wie alt ist " + firstname));
 
-if (age > 0 && age < 6)   // && = Und-Verknüfung
+if (age >= 0 && age < 6)   // && = Und-Verknüfung
 {
     console.log(firstname + " trinkt Milch.");
 }
