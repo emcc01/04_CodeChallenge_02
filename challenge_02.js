@@ -19,24 +19,51 @@ Alter 13-17 // Cola
 let firstname = prompt("Wie lautet der Name");
 let age =  parseInt(prompt("wie alt ist " + firstname));
 
-if (age >= 0 && age < 6)   // && = Und-Verknüfung
-{
-    console.log(firstname + " trinkt Milch.");
+// if (age >= 0 && age < 6)   // && = Und-Verknüfung
+// {
+//     console.log(firstname + " trinkt Milch.");
+// }
+// else if (age < 13)
+// {
+//     console.log(firstname + " trinkt Saft.");
+// }
+// else if (age < 18)
+// {
+//     console.log(firstname + " trinkt Cola.");
+// }
+// else if (age >= 18)
+// {
+//     console.log(firstname + " trinkt Wein.");
+// }
+// else 
+// {
+//     console.log(firstname + " trinkt Tee.");
+// }
+
+
+switch (true) {
+    
+    case (age >= 0) && (age <= 5):
+        console.log(firstname + " trinkt Milch.");
+        break;
+    case (age <= 12):
+        console.log(firstname + " trinkt Saft.");
+        break;
+    case (age <= 17):
+        console.log(firstname + " trinkt Cola.");
+        break;
+    case (age > 17):
+        console.log(firstname + " trinkt Wein.");
+        break;
+    default:
+        console.log(firstname + " trinkt Tee.");
+        break;
 }
-else if (age < 13)
-{
-    console.log(firstname + " trinkt Saft.");
-}
-else if (age < 18)
-{
-    console.log(firstname + " trinkt Cola.");
-}
-else if (age >= 18)
-{
-    console.log(firstname + " trinkt Wein.");
-}
-else 
-{
-    console.log(firstname + " trinkt Tee.");
-}
+
+
+    
+    
+    
+                
+   
 
