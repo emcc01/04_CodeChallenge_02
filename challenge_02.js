@@ -23,11 +23,11 @@ if (age > 0 && age < 6)   // && = Und-Verknüfung
 {
     console.log(firstname + " trinkt Milch.");
 }
-else if (age >= 6 && age < 13)
+else if (age < 13)
 {
     console.log(firstname + " trinkt Saft.");
 }
-else if (age >= 13 && age < 18)
+else if (age < 18)
 {
     console.log(firstname + " trinkt Cola.");
 }
