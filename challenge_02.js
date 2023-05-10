@@ -16,4 +16,5 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
-
+let name = prompt("Wie lautet der Name");
+let age =      ("wie alt");
